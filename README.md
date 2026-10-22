@@ -4,12 +4,15 @@
 
 本仓库只收录**与具体公司/组织无关**的通用技能。涉及内部业务、内部文档、内部系统标识的技能不放在这里。
 
+`tapd-task-submission` 是例外说明：它面向公开的 TAPD 平台，公开可用；但已移除一切内部规范文档路径、内部镜像目录与组织标识，团队约定的阈值改为可配置项。
+
 ## 技能列表
 
 | 技能 | 说明 |
 | --- | --- |
 | [`skills/extract-go-lib`](skills/extract-go-lib) | 把已有 Go 项目里的通用能力抽取成独立、可开源发布的 Go module 仓库；含通用性判定清单、去环境绑定清单、建仓结构模板、发布与验证清单。 |
 | [`skills/dotnet-github-auto-update`](skills/dotnet-github-auto-update) | 给 .NET（WPF/WinForms）桌面应用接入以 GitHub Releases 为通道的应用内自动升级。 |
+| [`skills/tapd-task-submission`](skills/tapd-task-submission) | 推进 TAPD Task 状态（open→progressing→done）并登记/核对工时；含两个纯标准库校验脚本（流转必填项比对、单人单日工时上限）。 |
 
 ## 在 CC Switch 中使用
 
