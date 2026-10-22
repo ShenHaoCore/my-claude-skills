@@ -1,0 +1,4 @@
+interface:
+  display_name: "TAPD 任务提交"
+  short_description: "推进 TAPD Task 状态并登记工时（创建工作项请走 tapd-create-guard）"
+  default_prompt: "用 tapd MCP 推进一个 TAPD Task 的状态或登记工时；若涉及创建工作项，先走 tapd-create-guard 校验流程。"
