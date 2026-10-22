@@ -13,6 +13,18 @@
 
 ## 在 CC Switch 中使用
 
+### 方式一：一键添加仓库（推荐）
+
+在装了 CC Switch 的电脑上，用浏览器打开这个链接：
+
+```
+ccswitch://v1/import?resource=skill&repo=ShenHaoCore/my-claude-skills&branch=main
+```
+
+CC Switch 会弹出导入确认框，点「导入」即可把本仓库加进技能仓库列表。**这一步只添加仓库，不会自动安装技能。**
+
+### 方式二：手动添加仓库
+
 1. 打开 **Skills → ⋯ → 仓库管理 → 添加仓库**
 2. 仓库填 `ShenHaoCore/my-claude-skills`，分支 `main`，技能路径留空（扫描整个仓库）
 3. 切到 **发现** 视图，搜到技能后点「安装」，选择要启用的应用（Claude Code / Codex / …）
